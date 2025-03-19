@@ -67,7 +67,7 @@ header{
 }
 .logo .bx{
     font-size: 30px;
-    color: var(--orange-color);
+    color: var(--green-color);
 }
 .navbar{
     display: flex;
@@ -76,11 +76,11 @@ header{
 .navbar a{
     font-size: 1rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--green-color);
     padding: 0.5rem 1rem;
 }
-.navbar a:hover, .navbar .home-active{
-    color: var(--green-color);
+.navbar a:hover/*, .navbar .home-active*/{
+    color: var(--light-orange-color);
     
 }
 #menu-icon{
